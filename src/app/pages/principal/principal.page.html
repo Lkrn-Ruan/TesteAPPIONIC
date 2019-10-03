@@ -1,0 +1,35 @@
+
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>Pagina Inicial</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Seja Bem Vindo ao Caralho do meu app</h1>
+  <label>Um dia eu sai de casa e minha mãe me disse, filho vem ca, passou a mão no meu cabelo, olho nos meus olhos e começou a falar..</label>
+  <br/>
+  <ion-button [routerLink]="['/sobre']" >Sobre</ion-button>
+
+  
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+      <ion-fab-button>
+        <ion-icon name="arrow-dropup"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="bottom">
+        <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="start">
+        <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="end">
+        <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+</ion-content>

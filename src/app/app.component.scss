@@ -1,0 +1,22 @@
+ion-title{
+    color:white;
+}
+ion-toolbar{
+    --background:black;
+}
+
+ion-item{
+    color:white;
+}
+ion-content{
+    --ion-background-color:darkblue;
+}
+ion-item:hover a {
+    color: yellow;
+  }
+  ion-label:hover {
+    color: yellow;
+  }
+ion-icon{
+    color:yellow;
+}
