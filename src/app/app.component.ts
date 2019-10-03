@@ -20,6 +20,11 @@ export class AppComponent {
       title: 'Sobre',
       url: '/sobre',
       icon: 'alert'
+    },
+    {
+      title:'Perfil',
+      url:'/perfil',
+      icon:'md-contact'
     }
   ];
 

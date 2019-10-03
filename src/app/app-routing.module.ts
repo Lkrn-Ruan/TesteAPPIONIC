@@ -16,7 +16,8 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   { path: 'principal', loadChildren: './pages/principal/principal.module#PrincipalPageModule' },
-  { path: 'sobre', loadChildren: './pages/sobre/sobre.module#SobrePageModule' }
+  { path: 'sobre', loadChildren: './pages/sobre/sobre.module#SobrePageModule' },
+  { path: 'perfil', loadChildren: './pages/perfil/perfil.module#PerfilPageModule' }
 ];
 
 @NgModule({
