@@ -1,14 +1,14 @@
 --Criando um novo repositório
-git init
+--- git init ---
 
 --Adicionando tudo
-git add *
+--- git add * ---
 
 --Adicionando um comentário, para controle de desenvolvimento
-git commit -m "comentários das alterações"
+--- git commit -m "comentários das alterações"  ---
 
 --Realizando o upload das alterações
-git push origin master
+--- git push origin master  ---
 
 
 
